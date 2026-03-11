@@ -204,9 +204,3 @@ FIREBASE_PROJECT_ID=your_project_id
 - **정신건강 위기상담** : 1577-0199 (24시간)
 - **자살예방 상담전화** : 1393 (24시간)
 - **청소년 상담전화** : 1388
-
----
-
-## 📄 License
-
-MIT License
