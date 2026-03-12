@@ -107,17 +107,31 @@ graph TB
 
 ```
 mori/
-├── lib/
+├── lib/                          # Flutter 앱
 │   ├── main.dart
 │   ├── screens/
 │   ├── services/
+│   │   ├── tflite_service.dart
+│   │   ├── api_service.dart
+│   │   └── db_service.dart
 │   ├── models/
 │   ├── utils/
 │   └── widgets/
 ├── assets/
 │   └── models/
 │       └── emotion_model.tflite
-└── pubspec.yaml
+├── server/                       # FastAPI 백엔드
+│   ├── main.py
+│   ├── routers/
+│   ├── services/
+│   ├── prompts/
+│   └── requirements.txt
+├── model/                        # TFLite 모델 학습/변환
+│   ├── train.py
+│   ├── convert_tflite.py
+│   └── dataset/
+├── pubspec.yaml
+└── README.md
 ```
 
 ---
